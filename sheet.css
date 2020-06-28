@@ -1,0 +1,106 @@
+.full{
+    background: rgb(70, 19, 19);
+    margin: none;
+}
+.top img{
+    width: 20%;
+}
+.container{
+    padding: .5em,.4em,0em,0em;
+ text-align: center;
+ color: white;
+ padding-top: .4em;
+ font-size: 12px;
+}
+.container ul{
+    list-style-type: none;
+}
+.container a{
+    text-decoration: none;
+    list-style-type: none;
+}
+.nav ul{
+    list-style-type: none;
+    padding-bottom: 2em;
+    display: inline-block;
+    text-decoration: none;
+    color: lightcyan;
+}
+.nav ul a{
+    text-decoration: none;
+    display: inline-block;
+    color: lightcyan;
+}
+
+.footer{
+    
+    color:white;
+    text-align: center;
+    padding-top: 1.5em;
+    padding-bottom: .5em;
+}
+.box1{
+    transform: skewY(5deg);
+    text-transform: none;
+    color: rgb(7, 63, 7);
+    background:seagreen;
+    border-radius: 20px;
+    margin: 10px;
+    text-align: center;
+    padding: .5em;
+}
+.box1 ul{
+    list-style-type:none;
+    font-size: 1.2em;
+}
+.box2{
+    transform: skewY(5deg);
+    text-transform: none;
+    border-radius: 20px;
+    color: rgb(7, 63, 7);
+    background:greenyellow;
+    text-align: center;
+    margin: 10px;
+    padding: .5em;
+    
+}
+.account{
+    text-transform: none;
+    transform: skewY(-5deg);
+    text-align: center;
+    color: rgb(7, 63, 7);
+    background: yellowgreen;
+    margin: 10px;
+    border-radius: 20px;
+    font-size: 1.2em;
+    padding: .5em;
+}
+.account a{
+    text-decoration: none;
+}
+.button a{
+    color: yellow;
+}
+.button{
+    background:red;
+    border-radius: 40px;
+    display: inline-block;
+    width: 20%;
+}
+.Img img{
+    width: 60%;
+}
+.top{
+    animation: move 1.2s infinite ;
+}
+@keyframes move{
+0%{
+    transform: translateX(-10px);
+}
+50%{
+    transform: translateX(10px);
+}
+100%{
+    transform: translateX(-10px);
+}
+}
